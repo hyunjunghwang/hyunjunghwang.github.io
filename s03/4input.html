@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id = "demo"></p>
+
+    <script>
+    var num1 = "1";
+    var num2 = "2";
+    console.log(parseInt(num1) + parseInt(num2));
+
+    var length = prompt("What is the length? ");
+    var width = prompt("What is the width? ");
+    var area = length * width;
+    var parameter = 2 * (length + width);
+    document.getElementById('demo').innerHTML = "Area: " + area
+    document.getElementById('demo').innerHTML = "Parameter: " + parameter
+    </script>
+
+</body>
+</html>
